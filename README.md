@@ -1,36 +1,42 @@
 
-# Noisy
+# Noisy-ru
 [![CircleCI](https://circleci.com/gh/1tayH/noisy/tree/master.svg?style=shield)](https://circleci.com/gh/1tayH/noisy/tree/master)
 
-A simple python script that generates random HTTP/DNS traffic noise in the background while you go about your regular web browsing, to make your web traffic data less valuable for selling and for extra obscurity.
+Русифицированный fork скрипта noisy
 
-Tested on MacOS High Sierra, Ubuntu 16.04 and Raspbian Stretch and is compatable with both Python 2.7 and 3.6
+Внимание! Сейчас скрипт в начальной стадии перевода, ведётся работа! 
 
-## Getting Started
+noisy - простой Python скрипт, который генерирует цифровой "шум" с помощью фоновых запросов к различным сервисам. Такие запросы помогают замаскировать ваши действия от провайдера среди цифрового "шума"
 
-These instructions will get you a copy of the project up and running on your local machine
+noisy-ru отличается наличием перевода на русский язык и наличием российских сервисов в списке тех, к которым скрипт будет обращаться для генерации "шума"
+
+Скрипт протестирован на MacOS High Sierra, Ubuntu 16.04, Raspbian Stretch, Termux 0.94 и совместим с Python 2.7 и 3.6
+
+## Начало работы
+
+Эта инструкция поможет установить и запустить noisy
 
 ### Dependencies
 
-Install `requests` if you do not have it already installed, using `pip`:
+Установите `requests` при помощи `pip`, если вы этого еще не сделали:
 
 ```
 pip install requests
 ```
 
-### Usage
+### Использование
 
-Clone the repository
+Скопируйте репозиторий командой 
 ```
 git clone https://github.com/1tayH/noisy.git
 ```
 
-Navigate into the `noisy` directory
+Переместитесь в папку с `noisy`
 ```
 cd noisy
 ```
 
-Run the script
+Запустите скрипт 
 
 ```
 python noisy.py --config config.json
