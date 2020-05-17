@@ -28,12 +28,12 @@ pip install requests
 
 Скопируйте репозиторий командой 
 ```
-git clone https://github.com/1tayH/noisy.git
+git clone https://github.com/Mihailovily/noisy-ru
 ```
 
-Переместитесь в папку с `noisy`
+Переместитесь в папку с `noisy-ru`
 ```
-cd noisy
+cd noisy-ru
 ```
 
 Запустите скрипт 
