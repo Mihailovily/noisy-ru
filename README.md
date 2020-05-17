@@ -82,7 +82,7 @@ DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "GET /user/Saditon HTTP/
 ...
 ```
 
-## Build Using Docker
+## Сборка при помощи Docker
 
 1. Build the image
 
@@ -96,17 +96,13 @@ DEBUG:urllib3.connectionpool:https://www.reddit.com:443 "GET /user/Saditon HTTP/
 
 `docker run -it noisy --config config.json`
 
-## Some examples
-
-Some edge-cases examples are available on the `examples` folder. You can read more there [examples/README.md](examples/README.md).
-
-## Authors
+## Авторы
 
 * **Itay Hury** - *Initial work* - [1tayH](https://github.com/1tayH)
 
 See also the list of [contributors](https://github.com/1tayH/Noisy/contributors) who participated in this project.
 
-## License
+## Лицензия
 
 This project is licensed under the GNU GPLv3 License - see the [LICENSE.md](LICENSE.md) file for details
 
