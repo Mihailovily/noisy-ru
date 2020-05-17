@@ -156,7 +156,7 @@ class Crawler(object):
 
         random_link = random.choice(self._links)
         try:
-            logging.info("Visiting {}".format(random_link))
+            logging.info("Посещаю {}".format(random_link))
             sub_page = self._request(random_link).content
             sub_links = self._extract_urls(sub_page, random_link)
 
